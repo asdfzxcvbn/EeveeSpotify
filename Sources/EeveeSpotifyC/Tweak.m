@@ -1,8 +1,9 @@
 #import <Orion/Orion.h>
 #import <Foundation/Foundation.h>
+#import <objc/runtime.h>
 
-void requestReviewHook(id, SEL) {};
-void requestReviewInSceneHook(id, SEL, id) {};
+void requestReviewHook(id self, SEL _cmd) {};
+void requestReviewInSceneHook(id self, SEL _cmd, id scene) {};
 
 __attribute__((constructor)) static void init() {
     // Initialize Orion - do not remove this line.
