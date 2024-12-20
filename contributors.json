@@ -1,6 +1,6 @@
 [
     {
-        "title": "Developement",
+        "title": "Development",
         "shuffled": false,
         "contributors": [
             {
@@ -147,6 +147,14 @@
                 "username": "zrvpuna",
                 "roles": [
                     "Japanese"
+                ]
+            },
+            {
+                "username": "RikyPy",
+                "roles": [
+                    "Arabic (Egypt, DeepL)",
+                    "Hungarian (DeepL)",
+                    "Romanian"
                 ]
             }
         ]
